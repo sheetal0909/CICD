@@ -1,4 +1,3 @@
-```python
 # Import Libraries
 import os
 import itertools
@@ -345,4 +344,3 @@ print("\nGenerated Files:")
 print("1. ConfusionMatrix.png")
 print("2. FeatureImportance.png")
 print("3. scores.txt")
-```
