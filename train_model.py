@@ -14,12 +14,12 @@ sns.set(style='white')
 
 
 # Load Data
-#dataset = pd.read_csv('iris.csv')
+dataset = pd.read_csv('iris.csv')
 
-import os
+#import os
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-dataset = pd.read_csv(os.path.join(BASE_DIR, 'iris.csv'))
+#BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+#dataset = pd.read_csv(os.path.join(BASE_DIR, 'iris.csv'))
 
 # Feature names (Ensure no extra spaces or parentheses)
 dataset.columns = [colname.strip(' (cm)').replace(" ", "_") for colname in dataset.columns.tolist()]
